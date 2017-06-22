@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body,html{ height:100%; overflow-x:hidden;
+	-webkit-user-select:none;
+	-moz-user-select:none;}
+body, html, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, input {margin: 0;padding: 0;list-style: none;}
+input,button{ outline:none}
+body {font: 100%/1.4 "微软雅黑";background-color: #fafafa;color: #000;}
+
+#ResultPan{ width:100%;}
+#ResultPan ul{ width:100%; background:#f0f0f0}
+#ResultPan ul li{ width:100%; background:#fafafa; padding:10px 0; margin-top:10px;}
+#ResultPan ul li:first-child{ margin:0}
+
+#ResultPan ul li div{ width:90%; margin:0 auto; color:#636363; font-size:1em}
